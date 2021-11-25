@@ -4,6 +4,11 @@
     font-family: 'Cairo', sans-serif;
 }
 
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
 body {
     background-color: #fffcf2;
     font-family: 'Cairo';
@@ -127,9 +132,14 @@ body {
     margin: 5px;
 }
 
+.myBackground{
+    width: 85%;
+}
+
 .myProjectinfo{
     display: flex;
     flex-wrap:wrap;
+    margin-top: 50px;
 }
 
 .Joe{
@@ -164,12 +174,23 @@ body {
 .myIcon{
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 .contactInfo{
     height: 20vh;
     display: flex;
     justify-content:space-around;
     align-items: center;
+    margin-top: 50px;
+}
+.contactItem{
+    width:150px;
+    height:150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
 }
 .myAddress{
     width: 80px;
@@ -179,7 +200,6 @@ body {
     background-position: center;
     border-radius: 50%;
     background-image: url(./images/icons8-home-48.png);
-    overflow: visible;
 }
 .myEmail{
     width: 80px;
