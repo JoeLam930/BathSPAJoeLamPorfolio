@@ -212,6 +212,10 @@ body {
     padding: 10px;
 }
 
+#JoeProject{
+    text-align: center;
+}
+
 .Project1{
     background-image: url("./images/4cardfeaturesectionlow.jpg");
     background-repeat: no-repeat;
@@ -231,6 +235,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+#JoeContact{
+    text-align: center;
 }
 .myIcon{
     display: flex;
@@ -305,5 +312,8 @@ body {
     }
     .mobileMenu{
         display:block;
+    }
+    .contactInfo{
+        display: inline;
     }
 }
