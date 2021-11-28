@@ -4,14 +4,35 @@
     font-family: 'Cairo', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h2{
+    font-size: 1.5rem;
+    line-height: 100%;
+}
+
+h3{
+    font-size: 1.25rem;
+    line-height: 100%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
 p{
     font-size: 1rem;
     text-align: justify;
+    line-height: 150%;
 }
 
 body {
     background-color: #fffcf2;
     font-family: 'Cairo';
+    margin: 0;
 }
 
 .container{
@@ -25,9 +46,26 @@ body {
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 50px;
+/*    height: 50px;*/
     background-color: #fffcf2;
+    padding: 10px;
+}
+
+.mobileNavbar{
+    width: 40px;
+    height: 40px;
+    border: black 2.5px solid;
+    overflow: hidden;
+    display:none;
+}
+
+#mobileMenu{
+    width: 100%;
+    text-align: center;
+    background-color: #fffcf2;
+    display: none;
 }
 
 .myName{
@@ -35,6 +73,7 @@ body {
 }
 
 .myButton{
+    font-size: 1.25rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,7 +130,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 75px;
+    top: 125px;
     right: 100px;
 }
 .Skill{
@@ -99,7 +138,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 75px;
+    top: 125px;
     left: 100px;
 }
 .Hobby{
@@ -107,15 +146,15 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 475px;
+    top: 525px;
     left: 100px;
 }
-.workExperience{
+.Education{
     background-image: url("./images/icons8-internship-96.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 475px;
+    top: 525px;
     right: 100px;
 }
 .myDetail{
@@ -123,17 +162,29 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 3px;
 }
 .info {
     width: 40%;
-    height: 200px;
     border-radius: 20px;
     background-color: #81b29a ;
-    margin: 5px;
+    padding: 15px;
 }
 
 .myBackground{
-    width: 85%;
+    width: 80%;
+}
+
+.mySkill{
+    width: 40%;
+}
+
+.myHobby{
+    width: 40%;
+}
+
+.EducationHistory{
+    width: 80%;
 }
 
 .myProjectinfo{
@@ -147,7 +198,7 @@ body {
     height: 200px;
 }
 
-.reverse{
+.Joe:nth-child(2){
     width: 100%;
     height: 200px;
     display:flex;
@@ -158,18 +209,28 @@ body {
     width: 50%;
     height: 200px;
     background-color: #cbdfbd;
+    padding: 10px;
 }
 
 .Project1{
     background-image: url("./images/4cardfeaturesectionlow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .Project2{
     background-image: url("./images/active-stateslow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .Project3{
     background-image: url("./images/Yanportfolio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .myIcon{
     display: flex;
@@ -208,7 +269,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-    background-image: url(./images/icons8-blackberry-40.png);
+    background-image: url(./images/icons8-at-sign-40.png);
 }
 .myPhone{
     width: 80px;
@@ -217,5 +278,32 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-    background-image: url(./images/icons8-at-sign-40.png);
+    background-image: url(./images/icons8-blackberry-40.png);
+}
+
+@media screen and (max-width: 768px){
+    .Description{
+        width: 100%;
+    }
+    .Joe {
+        width: 100%;
+    }
+    .Project2{
+        width:100%;
+    }
+    .aboutMyself1{
+        display: none;
+    }
+    .aboutMyself3{
+        display: none;
+    }
+    .myButton{
+        display: none;
+    }
+    .mobileNavbar{
+        display:block;
+    }
+    .mobileMenu{
+        display:block;
+    }
 }

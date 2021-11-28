@@ -13,10 +13,16 @@
         <div class="navbar">
             <div class="myName">JOE LAM</div>
             <div class="myButton">
-                <div class="Aboutme">About me</div>
-                <div class="myProjectbutton">Project</div>
-                <div class="Contactme">Contact me</div>
+                <div class="Aboutme"><a href="#JoeBackground">About me</a></div>
+                <div class="myProjectbutton"><a href="#JoeProject">Project</a></div>
+                <div class="Contactme"><a href="#JoeContact">Contact me</a></div>
             </div>
+            <div class="mobileNavbar"><a href="javascript:void(0);" onclick="showMobilemenu()" class="icon"><img src="images/icons8-moleskine-icon-50.png"></a></div>
+        </div>
+        <div id="mobileMenu">
+            <div class="mobileAboutme"><a href="#JoeBackground">About me</a></div>
+            <div class="mobileProject"><a href="#JoeProject">Project</a></div>
+            <div class="mobileContactme"><a href="#JoeContact">Contact me</a></div>
         </div>
         
         <div class="aboutMyself1">
@@ -29,39 +35,57 @@
         </div>
         <div class="aboutMyself3">
             <div class="my Hobby"></div>
-            <div class="my workExperience"></div>
+            <div class="my Education"></div>
         </div>
         <div class="myIcon">
             <div>
-            <img src="images/icons8-github-50.png" alt="Github">
+                <a href="https://github.com/JoeLam930" target="blank"><img src="images/icons8-github-50.png" alt="Github"></a>
             </div>
             <div>
-            <img src="images/icons8-linkedin-50.png" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/sing-lam-66552b20b/" target="blank"><img src="images/icons8-linkedin-50.png" alt="LinkedIn"></a>
             </div>
             <div>
-            <img src="images/icons8-codepen-50.png" alt="Code Pen">
+                <a href="https://codepen.io/joelam930" target="blank"><img src="images/icons8-codepen-50.png" alt="Code Pen"></a>
             </div>
             
         </div>
         <div class="myDetail">
-            <div class="info myBackground"><h2>Background</h2>
+            <div class="info myBackground" id="JoeBackground"><h2>Background</h2>
                 <p>With background in Graphic Design, I began my career in traditional graphic design in magazine typesetting and artwork production. I then moved on to seek new challenges in multimedia such as CD-ROM, 3D Modeling and Graphic Animation, and have completed a diploma in Computer Animation. I have excelled in the Information Technology industry, especially in Web Design and have worked many projects in this field. I am looking for an opportunity in Front End Developer.</p>
             </div>
-            <div class="info mySkill"><h2>Skill</h2></div>
-            <div class="info myHoddy"><h2>Hoddy</h2></div>
-            <div class="info myworkExperience"><h2>Work Experience</h2></div>
+            <div class="info mySkill"><h2>Skill</h2><p>Photoshop, Illustrator, InDesign, Animate, Dreamweaver, XD, HTML, CSS, JavaScript, TailsWindCSS, Agile.</p></div>
+            <div class="info myHobby"><h2>Hobby</h2><p>Running, TV Game, Design and Movie.</p></div>
+            <div class="info EducationHistory"><h2>Education</h2>
+                <p>Bath SPA University<br/>
+                Web Development Bootcamp (2021)</p>
+                <p>The Hong Kong Polytechnic University<br/>
+                School of Professional Education and Executive Development
+                Bachelor of Arts in Applied and Media Arts (2009)
+                </p>
+            </div>
         </div>
+        <h1 id="JoeProject">Project</h1>
         <div class="myProjectinfo">
             <div class="Joe Project1"></div>
-            <div class="Description"></div>
-            <div class="reverse">
-            <div class="Joe Project2"></div>
-            <div class="Description"></div>
+            <div class="Description">
+                <a href="https://github.com/JoeLam930/four-cards" target="blank"><h3>"Four card feature section"</h3></a>
+                <p>This was my first project using HTML and CSS, and it involved a lot layout skills such as flexbox and grid. It is completely responsive and built to designs provided by frontendmentor.io.</p>
             </div>
+            <!--<div class="reverse">-->
+            <div class="Joe Project2"></div>
+            <div class="Description">
+                <a href="https://github.com/JoeLam930/Bath-Spa-Challenge" target="blank"><h3>"Time tracking dashboard"</h3></a>
+                <p>This was my project using HTML and Tailwind CSS framework, and it involved a lot layout skills such as flexbox and grid. It is completely responsive and built to designs provided by frontendmentor.io.</p>
+            </div>
+            <!--</div>-->
             <div class="Joe Project3"></div>
-            <div class="Description"></div>
+            <div class="Description">
+                <a href="https://github.com/JoeLam930/Client_Portfolio" target="blank"><h3>"My friend Portfolio"</h3></a>
+                <p>This was my project using HTML, CSS and JavaScript, and it involved a lot layout skills such as flexbox and grid. It is completely responsive.</p>
+            </div>
         </div>
         <footer>
+            <h1 id="JoeContact">Contact Info</h1>
             <div class="contactInfo">
                 <div class="contactItem">
                 <div class="myAddress"></div>
