@@ -111,7 +111,7 @@ body {
     height:190px;
     border-radius: 50%;
     /*border: black 1px solid;*/
-    background-image: url("./images/IMG_3083c.jpg");
+    background-image: url("./images/IMG_3083c.JPG");
     padding: 0;
     margin: 0;
     /*right: 50%;*/
@@ -217,14 +217,14 @@ body {
 }
 
 .Project1{
-    background-image: url("./images/4cardfeaturesectionlow.jpg");
+    background-image: url("./images/4cardfeaturesectionlow.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .Project2{
-    background-image: url("./images/active-stateslow.jpg");
+    background-image: url("./images/active-stateslow.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
