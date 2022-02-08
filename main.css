@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h2{
+    font-size: 1.5rem;
+    line-height: 100%;
+}
+
+h3{
+    font-size: 1.25rem;
+    line-height: 100%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+p{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 150%;
+}
+
+body {
+    background-color: #fffcf2;
+    font-family: 'Cairo';
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    /*height: 100vh;*/
+    margin: auto;
+    background-color: #fed9b7;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+/*    height: 50px;*/
+    background-color: #fffcf2;
+    padding: 10px;
+}
+
+.mobileNavbar{
+    width: 40px;
+    height: 40px;
+    border: black 2.5px solid;
+    overflow: hidden;
+    display:none;
+}
+
+#mobileMenu{
+    width: 100%;
+    text-align: center;
+    background-color: #fffcf2;
+    display: none;
+}
+
+.myName{
+    font-size: 2rem;
+}
+
+.myButton{
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    height: 100%;
+    /*border: black 1px solid;*/
+}
+
+.aboutMyself1{
+    width: 100%;
+    height: 180px;
+    /*border: black 1px solid;*/
+}
+
+.aboutMyself2{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: black 1px solid;*/
+}
+
+.aboutMyself3{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    /*border: black 1px solid;*/
+}
+
+.mePhoto{
+    width:200px;
+    height:190px;
+    border-radius: 50%;
+    /*border: black 1px solid;*/
+    background-image: url("./images/IMG_3083c.JPG");
+    padding: 0;
+    margin: 0;
+    /*right: 50%;*/
+}
+
+.my{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #81b29a;
+    z-index: 10;
+}
+
+.Backgroundinfo{
+    background-image: url("./images/icons8-about-me-male-100.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 125px;
+    right: 100px;
+}
+.Skill{
+    background-image: url("./images/icons8-cv-96.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
+.Hobby{
+    background-image: url("./images/icons8-nintendo-switch-pro-controller-96.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 525px;
+    left: 100px;
+}
+.Education{
+    background-image: url("./images/icons8-internship-96.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 525px;
+    right: 100px;
+}
+.myDetail{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
+.info {
+    width: 40%;
+    border-radius: 20px;
+    background-color: #81b29a ;
+    padding: 15px;
+}
+
+.myBackground{
+    width: 80%;
+}
+
+.mySkill{
+    width: 40%;
+}
+
+.myHobby{
+    width: 40%;
+}
+
+.EducationHistory{
+    width: 80%;
+}
+
+.myProjectinfo{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 50px;
+}
+
+.Joe{
+    width: 50%;
+    height: 200px;
+}
+
+.Joe:nth-child(2){
+    width: 100%;
+    height: 200px;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.Description{
+    width: 50%;
+    height: 200px;
+    background-color: #cbdfbd;
+    padding: 10px;
+}
+
+#JoeProject{
+    text-align: center;
+}
+
+.Project1{
+    background-image: url("./images/4cardfeaturesectionlow.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Project2{
+    background-image: url("./images/active-stateslow.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Project3{
+    background-image: url("./images/Yanportfolio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#JoeContact{
+    text-align: center;
+}
+.myIcon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contactInfo{
+    height: 20vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.contactItem{
+    width:150px;
+    height:150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.myAddress{
+    width: 80px;
+    height: 80px;
+    background-color: #cbdfbd;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-image: url(./images/icons8-home-48.png);
+}
+.myEmail{
+    width: 80px;
+    height: 80px;
+    background-color: #cbdfbd;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-image: url(./images/icons8-at-sign-40.png);
+}
+.myPhone{
+    width: 80px;
+    height: 80px;
+    background-color: #cbdfbd;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-image: url(./images/icons8-blackberry-40.png);
+}
+
+@media screen and (max-width: 768px){
+    .Description{
+        width: 100%;
+    }
+    .Joe {
+        width: 100%;
+    }
+    .Project2{
+        width:100%;
+    }
+    .aboutMyself1{
+        display: none;
+    }
+    .aboutMyself3{
+        display: none;
+    }
+    .myButton{
+        display: none;
+    }
+    .mobileNavbar{
+        display:block;
+    }
+    .mobileMenu{
+        display:block;
+    }
+    .contactInfo{
+        display: inline;
+    }
+}
