@@ -78,7 +78,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 45%;
+    width: 65%;
     height: 100%;
     /*border: black 1px solid;*/
 }
@@ -251,6 +251,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#JoeDesign{
+    text-align: center;
 }
 
 .MobilePackage{
