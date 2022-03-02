@@ -17,6 +17,7 @@ h2{
 h3{
     font-size: 1.25rem;
     line-height: 100%;
+    text-decoration: underline;
 }
 
 ul li{
@@ -210,10 +211,25 @@ body {
     height: 200px;
     background-color: #cbdfbd;
     padding: 10px;
+    overflow: auto;
 }
 
 #JoeProject{
     text-align: center;
+}
+
+.MEELS{
+    background-image: url("./images/Meels.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Safepark{
+    background-image: url("./images/SafePark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .Project1{
@@ -236,6 +252,29 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.MobilePackage{
+    background-image: url("./images/MobilePackage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Booklet{
+    background-image: url("./images/PackagingandBookletlow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Leaflet{
+    background-image: url("./images/Leafletcover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 #JoeContact{
     text-align: center;
 }
