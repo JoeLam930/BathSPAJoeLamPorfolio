@@ -199,13 +199,6 @@ body {
     height: 200px;
 }
 
-.Joe:nth-child(2){
-    width: 100%;
-    height: 200px;
-    display:flex;
-    flex-direction: row-reverse;
-}
-
 .Description{
     width: 50%;
     height: 200px;
@@ -216,6 +209,12 @@ body {
 
 #JoeProject{
     text-align: center;
+}
+
+.reverse{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
 }
 
 .MEELS{
@@ -332,14 +331,25 @@ body {
 }
 
 @media screen and (max-width: 768px){
-    .Description{
-        width: 100%;
-    }
     .Joe {
         width: 100%;
     }
     .Project2{
         width:100%;
+    }
+    .Project3{
+        width:100%;
+    }
+    .Description{
+        width: 100%;
+        height: 200px;
+    }
+    .reverse{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width:100%;
+        height: 400px;
     }
     .aboutMyself1{
         display: none;
