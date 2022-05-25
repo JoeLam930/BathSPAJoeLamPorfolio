@@ -217,6 +217,13 @@ body {
     flex-direction: row-reverse;
 }
 
+.MuiLibrary{
+    background-image: url("./images/MuiLibrary.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .MEELS{
     background-image: url("./images/Meels.jpg");
     background-repeat: no-repeat;
